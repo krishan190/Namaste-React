@@ -1,0 +1,8 @@
+lecture 04 laying the foundation
+
+==================== what today i will learn===========
+
+1=> how can you build the scripts?
+2=> How you can create the gitignore?
+3=> Parcel tree shaking?
+4=> How can we remove the console.log?
