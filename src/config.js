@@ -1,32 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-
-const Title = () => (
-  <img
-    className="logo"
-    alt="logo"
-    src="https://img.freepik.com/premium-vector/restaurant-logo-design-vector-illustration-food-symbol-vector_1236506-726.jpg"
-  />
-);
-
-const Header = () => {
-  return (
-    <div className="header">
-      <Title />
-      <div className="nav-items">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Cart</li>
-        </ul>
-      </div>
-    </div>
-  );
-};
-
-const restaurantList = [
+export const restaurantList = [
   {
     brand_id: 20,
     client_source_id: 13,
@@ -300,47 +272,3 @@ const restaurantList = [
     sure_points_multiplier_data: null,
   },
 ];
-
-const RestaurantCard = ({
-  banner_image_es,
-  brand_name,
-  description,
-  main_offering,
-}) => {
-  return (
-    <div className="card">
-      <img src={banner_image_es} />
-      <h2>{brand_name}</h2>
-      <h2>{description}</h2>
-      <h2>{main_offering}</h2>
-    </div>
-  );
-};
-
-const Body = () => {
-  return (
-    <div className="restaurant-list">
-      {restaurantList.map((restaurant) => {
-        return <RestaurantCard {...restaurant} key={restaurant.brand_id} />;
-      })}
-    </div>
-  );
-};
-
-const Footer = () => {
-  return <h1>Footer</h1>;
-};
-
-const AppLayout = () => {
-  return (
-    <>
-      <Header />
-      <Body />
-      <Footer />
-    </>
-  );
-};
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(<AppLayout />);
