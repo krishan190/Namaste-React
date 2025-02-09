@@ -1,15 +1,22 @@
+import { IMG_CDN_URL } from "../config";
+
 const RestaurantCard = ({
-  banner_image_es,
-  brand_name,
-  description,
-  main_offering,
+  cloudinaryImageId,
+  name,
+  areaName,
+  avgRating,
 }) => {
   return (
     <div className="card">
-      <img src={banner_image_es} />
-      <h2>{brand_name}</h2>
-      <h2>{description}</h2>
-      <h2>{main_offering}</h2>
+      <img
+        src={
+          IMG_CDN_URL +
+          cloudinaryImageId
+        }
+      />
+      <h2>{name}</h2>
+      <h2>{areaName}</h2>
+      <h2>{avgRating}</h2>
     </div>
   );
 };

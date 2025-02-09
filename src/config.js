@@ -1,274 +1,843 @@
+export const IMG_CDN_URL =
+  "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
+
+export const LOGO_URL =
+  "https://img.freepik.com/premium-vector/restaurant-logo-design-vector-illustration-food-symbol-vector_1236506-726.jpg";
+
 export const restaurantList = [
   {
-    brand_id: 20,
-    client_source_id: 13,
-    banner_image_es:
-      "https://product-assets.faasos.io/eatsure_cms/production/ff45eb24-ff5d-49d5-8652-7f90aaee28f5.jpg",
-    brand_name: "Faasos",
-    brand_start_time: "00:00:00",
-    brand_end_time: "23:59:00",
-    description: "Indulgent wraps loaded with high protein fillings",
-    logo: "https://rp-media.faasos.io/catalog/images/KBD9B6BGSL.jpeg",
-    rectangle_logo: "https://rp-media.faasos.io/catalog/images/KBD9B6BGSL.jpeg",
-    background_url: "https://rp-media.faasos.io/catalog/images/KBD9B6BGSL.jpeg",
-    background_url_large:
-      "https://rp-media.faasos.io/catalog/images/KBD9B6BGSL.jpeg",
-    main_offering: "Wraps",
-    slug: "faasos",
-    is_exclusive: 0,
-    sequence: 0,
-    minimum_order_amount: 0,
-    brand_delivery_fees: 0,
-    max_delivery_time: 0,
-    min_delivery_time: 0,
-    inclusive_mrp: 1,
-    is_opened: 0,
-    discount_info: [],
-    sure_points_multiplier_data: null,
+    info: {
+      id: "50597",
+      name: "Chinese Wok",
+      cloudinaryImageId: "e0839ff574213e6f35b3899ebf1fc597",
+      locality: "R City",
+      areaName: "Ghatkopar West",
+      costForTwo: "₹250 for two",
+      cuisines: ["Chinese", "Asian", "Tibetan", "Desserts"],
+      avgRating: 4.3,
+      parentId: "61955",
+      avgRatingString: "4.3",
+      totalRatingsString: "2.3K+",
+      sla: {
+        deliveryTime: 51,
+        lastMileTravel: 3.8,
+        serviceability: "SERVICEABLE",
+        slaString: "50-55 mins",
+        lastMileTravelString: "3.8 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-10-07 23:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
+            description: "Delivery!",
+          },
+          {
+            imageId: "Rxawards/_CATEGORY-Chinese.png",
+            description: "Delivery!",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
+                },
+              },
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Chinese.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹179",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-92ea1056-1c4c-437c-a417-c1d39cc6df60",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/mumbai/chinese-wok-r-city-ghatkopar-west-rest50597",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    brand_id: 26,
-    client_source_id: 13,
-    banner_image_es:
-      "https://product-assets.faasos.io/eatsure_cms/production/44df4975-8ff8-49dd-8e66-58d4d9a80a87.jpg",
-    brand_name: "Behrouz Biryani",
-    brand_start_time: "00:00:00",
-    brand_end_time: "23:59:00",
-    description: "Handcrafted, Royal Biryanis",
-    logo: "https://rp-media.faasos.io/catalog/images/AZQZ2LKXCP.jpeg",
-    rectangle_logo: "https://rp-media.faasos.io/catalog/images/AZQZ2LKXCP.jpeg",
-    background_url: "https://rp-media.faasos.io/catalog/images/AZQZ2LKXCP.jpeg",
-    background_url_large:
-      "https://rp-media.faasos.io/catalog/images/AZQZ2LKXCP.jpeg",
-    main_offering: "Royal Biryani",
-    slug: "behrouz-biryani",
-    is_exclusive: 0,
-    sequence: 0,
-    minimum_order_amount: 0,
-    brand_delivery_fees: 0,
-    max_delivery_time: 0,
-    min_delivery_time: 0,
-    inclusive_mrp: 1,
-    is_opened: 0,
-    discount_info: [],
-    sure_points_multiplier_data: null,
+    info: {
+      id: "28511",
+      name: "The Belgian Waffle Co.",
+      cloudinaryImageId: "5116a385bac0548e06c33c08350fbf11",
+      locality: "Ghatkopar East",
+      areaName: "Ghatkopar East",
+      costForTwo: "₹200 for two",
+      cuisines: ["Waffle", "Desserts", "Ice Cream"],
+      avgRating: 4.5,
+      parentId: "2233",
+      avgRatingString: "4.5",
+      totalRatingsString: "13K+",
+      sla: {
+        deliveryTime: 37,
+        lastMileTravel: 3.6,
+        serviceability: "SERVICEABLE",
+        slaString: "35-40 mins",
+        lastMileTravelString: "3.6 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-10-08 04:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Green%20Dot%20Awards/Best%20In%20Desserts.png",
+            description: "Delivery!",
+          },
+          {
+            imageId: "Green%20Dot%20Awards/Best%20In%20Waffle.png",
+            description: "Delivery!",
+          },
+          {
+            imageId: "Rxawards/_CATEGORY-Desserts.png",
+            description: "Delivery!",
+          },
+          {
+            imageId: "v1695133679/badges/Pure_Veg111.png",
+            description: "pureveg",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Green%20Dot%20Awards/Best%20In%20Desserts.png",
+                },
+              },
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Green%20Dot%20Awards/Best%20In%20Waffle.png",
+                },
+              },
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Desserts.png",
+                },
+              },
+              {
+                attributes: {
+                  description: "pureveg",
+                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.1",
+          ratingCount: "539",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-92ea1056-1c4c-437c-a417-c1d39cc6df60",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/mumbai/the-belgian-waffle-co-ghatkopar-east-rest28511",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    brand_id: 21,
-    client_source_id: 13,
-    banner_image_es:
-      "https://product-assets.faasos.io/eatsure_cms/production/20d17709-a8b0-41fb-be5b-737d3e97be76.jpg",
-    brand_name: "Ovenstory",
-    brand_start_time: "00:00:00",
-    brand_end_time: "23:59:00",
-    description: "Pizza with standout toppings",
-    logo: "https://rp-media.faasos.io/catalog/images/0TB1SAAY2Z.jpeg",
-    rectangle_logo: "https://rp-media.faasos.io/catalog/images/0TB1SAAY2Z.jpeg",
-    background_url: "https://rp-media.faasos.io/catalog/images/0TB1SAAY2Z.jpeg",
-    background_url_large:
-      "https://rp-media.faasos.io/catalog/images/0TB1SAAY2Z.jpeg",
-    main_offering: "Pizzas",
-    slug: "ovenstory",
-    is_exclusive: 0,
-    sequence: 0,
-    minimum_order_amount: 0,
-    brand_delivery_fees: 0,
-    max_delivery_time: 0,
-    min_delivery_time: 0,
-    inclusive_mrp: 1,
-    is_opened: 0,
-    discount_info: [],
-    sure_points_multiplier_data: null,
+    info: {
+      id: "619140",
+      name: "Dabba Garam (Homestyle,Combo, Thali & More)",
+      cloudinaryImageId: "y0awpu4gucsgkleweloc",
+      locality: "Ghatkopar",
+      areaName: "Ghatkopar Vikhroli",
+      costForTwo: "₹150 for two",
+      cuisines: ["Home Food", "North Indian", "Thalis"],
+      avgRating: 4.5,
+      veg: true,
+      parentId: "67608",
+      avgRatingString: "4.5",
+      totalRatingsString: "3.8K+",
+      sla: {
+        deliveryTime: 32,
+        lastMileTravel: 4,
+        serviceability: "SERVICEABLE",
+        slaString: "30-35 mins",
+        lastMileTravelString: "4.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-10-07 23:30:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "v1695133679/badges/Pure_Veg111.png",
+            description: "pureveg",
+          },
+        ],
+        textExtendedBadges: [
+          {
+            iconId: "guiltfree/GF_Logo_android_3x",
+            shortDescription: "options available",
+            fontColor: "#7E808C",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "pureveg",
+                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "",
+                  fontColor: "#7E808C",
+                  iconId: "guiltfree/GF_Logo_android_3x",
+                  shortDescription: "options available",
+                },
+              },
+            ],
+          },
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-92ea1056-1c4c-437c-a417-c1d39cc6df60",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/mumbai/dabba-garam-homestyle-combo-thali-and-more-ghatkopar-ghatkopar-vikhroli-rest619140",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    brand_id: 23,
-    client_source_id: 13,
-    banner_image_es:
-      "https://product-assets.faasos.io/eatsure_cms/production/dd79d385-5898-4956-8a07-718b8ddde9ff.jpg",
-    brand_name: "Firangi Bake",
-    brand_start_time: "00:00:00",
-    brand_end_time: "23:59:00",
-    description: "Safe & Legendary Bakes",
-    logo: "https://rp-media.faasos.io/catalog/images/LEGFVYDHFK.jpeg",
-    rectangle_logo: "https://rp-media.faasos.io/catalog/images/LEGFVYDHFK.jpeg",
-    background_url: "https://rp-media.faasos.io/catalog/images/LEGFVYDHFK.jpeg",
-    background_url_large:
-      "https://rp-media.faasos.io/catalog/images/LEGFVYDHFK.jpeg",
-    main_offering: "Pasta & Lasagnas",
-    slug: "firangi-bake",
-    is_exclusive: 0,
-    sequence: 0,
-    minimum_order_amount: 0,
-    brand_delivery_fees: 0,
-    max_delivery_time: 0,
-    min_delivery_time: 0,
-    inclusive_mrp: 1,
-    is_opened: 0,
-    discount_info: [],
-    sure_points_multiplier_data: null,
+    info: {
+      id: "345430",
+      name: "KFC",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/37dc9e37-386f-453b-a219-ffa2c154750b_345430.JPG",
+      locality: "City Mall",
+      areaName: "Ghatkopar West",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Fast Food", "Rolls & Wraps"],
+      avgRating: 4.1,
+      parentId: "547",
+      avgRatingString: "4.1",
+      totalRatingsString: "1.8K+",
+      sla: {
+        deliveryTime: 54,
+        lastMileTravel: 3.8,
+        serviceability: "SERVICEABLE",
+        slaString: "50-55 mins",
+        lastMileTravelString: "3.8 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-10-07 23:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "30% OFF",
+        subHeader: "UPTO ₹75",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-92ea1056-1c4c-437c-a417-c1d39cc6df60",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/mumbai/kfc-city-mall-ghatkopar-west-rest345430",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    brand_id: 24,
-    client_source_id: 13,
-    banner_image_es:
-      "https://product-assets.faasos.io/eatsure_cms/production/56e8a229-4d1f-4afc-9217-d44b44299d15.jpg",
-    brand_name: "Sweet Truth",
-    brand_start_time: "00:00:00",
-    brand_end_time: "23:59:00",
-    description: "The Purest Indulgence",
-    logo: "https://rp-media.faasos.io/catalog/images/2QK8YNKIWE.jpeg",
-    rectangle_logo: "https://rp-media.faasos.io/catalog/images/2QK8YNKIWE.jpeg",
-    background_url: "https://rp-media.faasos.io/catalog/images/2QK8YNKIWE.jpeg",
-    background_url_large:
-      "https://rp-media.faasos.io/catalog/images/2QK8YNKIWE.jpeg",
-    main_offering: "Desserts",
-    slug: "sweet-truth",
-    is_exclusive: 0,
-    sequence: 0,
-    minimum_order_amount: 0,
-    brand_delivery_fees: 0,
-    max_delivery_time: 0,
-    min_delivery_time: 0,
-    inclusive_mrp: 1,
-    is_opened: 0,
-    discount_info: [],
-    sure_points_multiplier_data: null,
+    info: {
+      id: "332899",
+      name: "Subway",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/12/1a5f3044-995a-43e7-bbf0-ab52283858c6_332899.jpg",
+      locality: "Jawahar Rd",
+      areaName: "Ghatkopar East",
+      costForTwo: "₹350 for two",
+      cuisines: ["Fast Food", "Salads", "Desserts", "Beverages"],
+      avgRating: 4.2,
+      parentId: "2",
+      avgRatingString: "4.2",
+      totalRatingsString: "5.1K+",
+      sla: {
+        deliveryTime: 36,
+        lastMileTravel: 3.5,
+        serviceability: "SERVICEABLE",
+        slaString: "35-40 mins",
+        lastMileTravelString: "3.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-10-08 03:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Salad.png",
+            description: "Delivery!",
+          },
+          {
+            imageId: "Rxawards/_CATEGORY-Sandwiches.png",
+            description: "Delivery!",
+          },
+        ],
+        textExtendedBadges: [
+          {
+            iconId: "guiltfree/GF_Logo_android_3x",
+            shortDescription: "options available",
+            fontColor: "#7E808C",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Salad.png",
+                },
+              },
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Sandwiches.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "",
+                  fontColor: "#7E808C",
+                  iconId: "guiltfree/GF_Logo_android_3x",
+                  shortDescription: "options available",
+                },
+              },
+            ],
+          },
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹150 OFF",
+        subHeader: "ABOVE ₹299",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-92ea1056-1c4c-437c-a417-c1d39cc6df60",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/mumbai/subway-jawahar-rd-ghatkopar-east-rest332899",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    brand_id: 30,
-    client_source_id: 13,
-    banner_image_es:
-      "https://product-assets.faasos.io/eatsure_cms/production/a2963595-02b9-4472-80a5-e790d9308d93.jpg",
-    brand_name: "The Good Bowl",
-    brand_start_time: "00:00:00",
-    brand_end_time: "23:59:00",
-    description: "Delicious Bowl Meals - Hygienic & Safe",
-    logo: "https://rp-media.faasos.io/catalog/images/7BLOJN54GE.jpeg",
-    rectangle_logo: "https://rp-media.faasos.io/catalog/images/7BLOJN54GE.jpeg",
-    background_url: "https://rp-media.faasos.io/catalog/images/7BLOJN54GE.jpeg",
-    background_url_large:
-      "https://rp-media.faasos.io/catalog/images/7BLOJN54GE.jpeg",
-    main_offering: "Rice Bowl",
-    slug: "the-good-bowl",
-    is_exclusive: 0,
-    sequence: 0,
-    minimum_order_amount: 0,
-    brand_delivery_fees: 0,
-    max_delivery_time: 0,
-    min_delivery_time: 0,
-    inclusive_mrp: 1,
-    is_opened: 0,
-    discount_info: [],
-    sure_points_multiplier_data: null,
+    info: {
+      id: "19972",
+      name: "Burger King",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/7f76a072-c1bc-4d74-ac56-33e0eea20c1e_19972.JPG",
+      locality: "Rcity",
+      areaName: "Ghatkopar West",
+      costForTwo: "₹350 for two",
+      cuisines: ["Burgers", "American"],
+      avgRating: 4.1,
+      parentId: "166",
+      avgRatingString: "4.1",
+      totalRatingsString: "26K+",
+      sla: {
+        deliveryTime: 49,
+        lastMileTravel: 3.8,
+        serviceability: "SERVICEABLE",
+        slaString: "45-50 mins",
+        lastMileTravelString: "3.8 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-10-08 02:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
+            description: "Delivery!",
+          },
+          {
+            imageId: "Rxawards/_CATEGORY-Burger.png",
+            description: "Delivery!",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
+                },
+              },
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Burger.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹99",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-92ea1056-1c4c-437c-a417-c1d39cc6df60",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/mumbai/burger-king-rcity-ghatkopar-west-rest19972",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    brand_id: 27,
-    client_source_id: 13,
-    banner_image_es:
-      "https://product-assets.faasos.io/eatsure_cms/production/5dc6b181-0749-4617-87be-d4a227998324.jpg",
-    brand_name: "Lunchbox - Meals & Thalis",
-    brand_start_time: "00:00:00",
-    brand_end_time: "23:59:00",
-    description: "Homestyle, Wholesome, Delightful",
-    logo: "https://rp-media.faasos.io/catalog/images/EA1BCMJCWN.jpeg",
-    rectangle_logo: "https://rp-media.faasos.io/catalog/images/EA1BCMJCWN.jpeg",
-    background_url: "https://rp-media.faasos.io/catalog/images/EA1BCMJCWN.jpeg",
-    background_url_large:
-      "https://rp-media.faasos.io/catalog/images/EA1BCMJCWN.jpeg",
-    main_offering: "Homestyle Meals",
-    slug: "lunchbox",
-    is_exclusive: 0,
-    sequence: 0,
-    minimum_order_amount: 0,
-    brand_delivery_fees: 0,
-    max_delivery_time: 0,
-    min_delivery_time: 0,
-    inclusive_mrp: 1,
-    is_opened: 0,
-    discount_info: [],
-    sure_points_multiplier_data: null,
+    info: {
+      id: "649531",
+      name: "Kwality Walls Ice Cream and More",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/13/b62d0931-507e-4965-a060-724005f37f2e_649531.JPG",
+      locality: "Tilak road",
+      areaName: "Ghatkopar Vikhroli",
+      costForTwo: "₹200 for two",
+      cuisines: ["Desserts", "Ice Cream", "Ice Cream Cakes"],
+      avgRating: 4.6,
+      veg: true,
+      parentId: "582",
+      avgRatingString: "4.6",
+      totalRatingsString: "310",
+      sla: {
+        deliveryTime: 29,
+        lastMileTravel: 3.6,
+        serviceability: "SERVICEABLE",
+        slaString: "25-30 mins",
+        lastMileTravelString: "3.6 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-10-14 00:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "v1695133679/badges/Pure_Veg111.png",
+            description: "pureveg",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "pureveg",
+                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹100 OFF",
+        subHeader: "ABOVE ₹349",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-92ea1056-1c4c-437c-a417-c1d39cc6df60",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/mumbai/kwality-walls-ice-cream-and-more-tilak-road-ghatkopar-vikhroli-rest649531",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    brand_id: 25,
-    client_source_id: 13,
-    banner_image_es:
-      "https://product-assets.faasos.io/eatsure_cms/production/cbd4171c-dc9c-4ba4-96f8-ef4e4c3f959e.jpg",
-    brand_name: "The Biryani Life",
-    brand_start_time: "00:00:00",
-    brand_end_time: "23:59:00",
-    description: "Hyderabad & Lucknow Biryani experts",
-    logo: "https://rp-media.faasos.io/catalog/images/2JUXUZOAFH.jpeg",
-    rectangle_logo: "https://rp-media.faasos.io/catalog/images/2JUXUZOAFH.jpeg",
-    background_url: "https://rp-media.faasos.io/catalog/images/2JUXUZOAFH.jpeg",
-    background_url_large:
-      "https://rp-media.faasos.io/catalog/images/2JUXUZOAFH.jpeg",
-    main_offering: "Hyderabadi Biryani",
-    slug: "the-biryani-life",
-    is_exclusive: 0,
-    sequence: 0,
-    minimum_order_amount: 0,
-    brand_delivery_fees: 0,
-    max_delivery_time: 0,
-    min_delivery_time: 0,
-    inclusive_mrp: 1,
-    is_opened: 0,
-    discount_info: [],
-    sure_points_multiplier_data: null,
-  },
-  {
-    brand_id: 31,
-    client_source_id: 13,
-    banner_image_es:
-      "https://product-assets.faasos.io/eatsure_cms/production/bf483b98-1d1c-4aa2-b0c2-43f5b2175bd7.jpg",
-    brand_name: "Pure Veg Meals by LunchBox",
-    brand_start_time: "00:00:00",
-    brand_end_time: "23:59:00",
-    description: "Satvik bhi, Delicious bhi",
-    logo: "https://rp-media.faasos.io/catalog/images/MLGVL3OSP20I.jpeg",
-    rectangle_logo:
-      "https://rp-media.faasos.io/catalog/images/MLGVL3OSP20I.jpeg",
-    background_url:
-      "https://rp-media.faasos.io/catalog/images/MLGVL3OSP20I.jpeg",
-    background_url_large:
-      "https://rp-media.faasos.io/catalog/images/MLGVL3OSP20I.jpeg",
-    main_offering: "Veg Meals",
-    slug: "pure-veg-meals-by-lunchbox",
-    is_exclusive: 0,
-    sequence: 0,
-    minimum_order_amount: 0,
-    brand_delivery_fees: 0,
-    max_delivery_time: 0,
-    min_delivery_time: 0,
-    inclusive_mrp: 1,
-    is_opened: 0,
-    discount_info: [],
-    sure_points_multiplier_data: null,
-  },
-  {
-    brand_id: 82,
-    client_source_id: 13,
-    banner_image_es:
-      "https://product-assets.faasos.io/eatsure_cms/production/d3268cfb-a448-4638-9b84-32b822bd9322.jpg",
-    brand_name: "Faasos' Signature Wraps & Rolls",
-    brand_start_time: "00:00:00",
-    brand_end_time: "23:59:00",
-    description: "Extraordinarily Indulgent Wraps",
-    logo: "https://rp-media.faasos.io/catalog/images/DT0V7MWZUK.jpeg",
-    rectangle_logo: "https://rp-media.faasos.io/catalog/images/DT0V7MWZUK.jpeg",
-    background_url: "https://rp-media.faasos.io/catalog/images/DT0V7MWZUK.jpeg",
-    background_url_large:
-      "https://rp-media.faasos.io/catalog/images/DT0V7MWZUK.jpeg",
-    main_offering: "Loaded wrap",
-    slug: "signature-wraps-rolls-by-faasos",
-    is_exclusive: 0,
-    sequence: 0,
-    minimum_order_amount: 0,
-    brand_delivery_fees: 0,
-    max_delivery_time: 0,
-    min_delivery_time: 0,
-    inclusive_mrp: 1,
-    is_opened: 0,
-    discount_info: [],
-    sure_points_multiplier_data: null,
+    info: {
+      id: "23674",
+      name: "McDonald's",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/c2807004-2789-42fa-850f-f97d89521382_23674.jpg",
+      locality: "Ghatkopar West",
+      areaName: "Ghatkopar West",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
+      avgRating: 4.5,
+      parentId: "630",
+      avgRatingString: "4.5",
+      totalRatingsString: "18K+",
+      sla: {
+        deliveryTime: 44,
+        lastMileTravel: 3.8,
+        serviceability: "SERVICEABLE",
+        slaString: "40-45 mins",
+        lastMileTravelString: "3.8 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-10-07 22:45:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
+            description: "Delivery!",
+          },
+          {
+            imageId: "Rxawards/_CATEGORY-Burger.png",
+            description: "Delivery!",
+          },
+        ],
+        textExtendedBadges: [
+          {
+            iconId: "guiltfree/GF_Logo_android_3x",
+            shortDescription: "options available",
+            fontColor: "#7E808C",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
+                },
+              },
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Burger.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "",
+                  fontColor: "#7E808C",
+                  iconId: "guiltfree/GF_Logo_android_3x",
+                  shortDescription: "options available",
+                },
+              },
+            ],
+          },
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "10% OFF",
+        subHeader: "UPTO ₹40",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.3",
+          ratingCount: "5.5K+",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-92ea1056-1c4c-437c-a417-c1d39cc6df60",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/mumbai/mcdonalds-ghatkopar-west-rest23674",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
 ];

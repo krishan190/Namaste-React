@@ -1,8 +1,10 @@
+import { LOGO_URL } from "../config";
+
 const Logo = () => (
   <img
     className="logo"
     alt="logo"
-    src="https://img.freepik.com/premium-vector/restaurant-logo-design-vector-illustration-food-symbol-vector_1236506-726.jpg"
+    src={LOGO_URL}
   />
 );
 
